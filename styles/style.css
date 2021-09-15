@@ -9,7 +9,7 @@ img{
 }
 .wrapper{
 	max-width: 960px;
-	height: 100vh;
+	min-height: 100vh;
 	margin: 0 auto;
 	display: flex;
 }
@@ -17,11 +17,11 @@ img{
 	max-width: 25%;
 	min-width: 200px;
 	background-color: #3f6592;
-	padding: 20px;
+	
 	
 }
 .personal-image{
-	
+	padding: 20px;
 }
 img{
 	border-radius: 50%;
@@ -30,7 +30,8 @@ img{
 	
 }
 .personal-item-info{
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
+	margin-left: 20px;	
 }
 .personal-data{
 	font-family: sans-serif;
@@ -39,6 +40,7 @@ img{
 	border-bottom: 1px solid #dadce0;
 	color: white;
 	margin-bottom: 10px;
+
 
 }
 .personal-all-detailed{
