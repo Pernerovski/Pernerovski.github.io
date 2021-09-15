@@ -12,37 +12,45 @@ img{
 	height: 100vh;
 	margin: 0 auto;
 	display: flex;
-	
-	
 }
 .main-personal-data{
 	max-width: 25%;
 	min-width: 200px;
 	background-color: #3f6592;
 	padding: 20px;
-
-
+	
+}
+.personal-image{
+	
 }
 img{
 	border-radius: 50%;
 }
-.personal-data{
-
-	font-family: sans-serif;
-	font-size: 20px;
-	border-bottom: 1px solid #dadce0;
-
+.personal-item-information{
 	
 }
-.personal-all-detailed{
+.personal-item-info{
+	margin-bottom: 10px;	
+}
+.personal-data{
+	font-family: sans-serif;
+	font-size: 20px;
+	
+	border-bottom: 1px solid #dadce0;
+	color: white;
+	margin-bottom: 10px;
 
+}
+.personal-all-detailed{
 	font-family: sans-serif;
 	font-size: 15px;
-	
+	color: white;
 	
 }
 .personal-detailed{
 	font-size: 12px;
+	color: white;
+	margin-bottom: 10px;
 }
 .personal-languages{
 	display: flex;
@@ -50,20 +58,25 @@ img{
 }
 .personal-lang-detai{
 	font-size: 12px;
-
-	
 }
 .main-pesonal-expirience{
 	background-color: rgb(255, 255, 255);
 	padding: 20px;
-
+	
 }
 .expirience-name{
 	font-size:33px;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+}
+.expirience-info{
+	margin-bottom: 10px;
 }
 .expirience-detail{
 	font-size:25px;
 	border-bottom: 1px solid black;
+	margin-bottom: 6px;
+	
 }
 .expirience-pos-date{
 	display: flex;
@@ -71,13 +84,15 @@ img{
 }
 .expirience-position{
 	font-size: 20px;
+	margin-bottom: 6px;
 }
 .expirience-date{
 	font-size: 12px;
 }
 .expirience-adres{
-
+margin-bottom: 6px;
 }
 .expirience-detailed{
 	font-size: 12px;
+
 }
