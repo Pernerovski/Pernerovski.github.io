@@ -11,7 +11,58 @@ img{
 	max-width: 960px;
 	min-height: 100vh;
 	margin: 0 auto;
+	
+}
+.personal-menu{
+	margin-bottom: 1px;
+}
+
+.information{
 	display: flex;
+}
+
+.site-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	
+	
+	background-color: #585858;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	
+}
+.site-nav .site-nav-item {	
+	border: 3px solid #3f6592;
+	padding: 5px;
+	margin: 5px 5px;
+	border-radius: 4px;
+	
+
+}
+.site-nav .site-nav-item:hover{
+	box-shadow: 0 0 5px 5px rgba(221, 221, 221, 1);
+	background-color: #3f6592;
+
+	border-color: yellow;
+	transition: .4s;
+}
+.site-nav .site-nav-item a:hover{
+	transition: 2s;
+	color: red;
+}
+.site-nav .site-nav-item:last-child {
+	
+}
+.site-nav .site-nav-item a {
+	color: white;
+	text-decoration: none;
+}
+.site-nav .site-nav-item a:hover {
+	text-decoration: underline;
+
 }
 a{
 	text-decoration: none;
