@@ -15,24 +15,18 @@ img{
 }
 .personal-menu{
 	margin-bottom: 1px;
+	
 }
-
-.information{
-	display: flex;
-}
-
 .site-nav {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
-	
-	
 	background-color: #585858;
 	list-style: none;
 	padding: 0;
-	width: 100%;
-	
+	width: 100%
+	min-height: 300px;
 }
 .site-nav .site-nav-item {	
 	border: 3px solid #3f6592;
@@ -66,6 +60,9 @@ img{
 }
 a{
 	text-decoration: none;
+}
+.information{
+	display: flex;
 }
 .main-personal-title{
 	max-width: 25%;
