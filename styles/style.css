@@ -180,8 +180,8 @@ i:hover{
 	color: #585858;
 }
 
-.expirience-works{
-
+.expirience-works a {
+	display: block;
 }
 .expirience-my-works{
 	color: #585858;
