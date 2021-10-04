@@ -1,0 +1,19 @@
+a:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+a:visited {
+	color: #3A681A;
+}
+a:hover {
+	color: #5CA22E;
+}
+.pole{
+	width: 95px;
+}
+.pole, .pole2{
+	border: 1px solid #008000;
+	font-size: 11px;
+	background-color: #E7F2D7;
+	height: 17px;
+}

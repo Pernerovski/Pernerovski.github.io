@@ -1,0 +1,28 @@
+.site-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	
+	
+	background-color: palevioletred;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+	border: 1px solid mediumvioletred;
+}
+.site-nav .site-nav-item {	
+	border: 1px solid mediumvioletred;
+	padding: 5px;
+	margin: 1px;
+}
+.site-nav .site-nav-item:last-child {
+	
+}
+.site-nav .site-nav-item a {
+	color: white;
+	text-decoration: none;
+}
+.site-nav .site-nav-item a:hover {
+	text-decoration: underline;
+}
