@@ -13,7 +13,7 @@ img{
 
 }
 .burger_box{
-	max-width: 960px;
+	width: 960px;
 	padding: 25px;
 	margin: 0 auto;
 
@@ -32,12 +32,12 @@ img{
 	width: 305px;
 	height: 100px;
 	position: absolute;
-	top: 40%;
+	top: 45%;
 
 }
 .burger_right{
-	width: 65%;
-	min-width: 500px;
+	/*width: 65%;*/
+/*	min-width: 500px;*/
 	text-align: center;
 	background: white;
 
@@ -58,7 +58,7 @@ img{
 }
 .burger_romb_icon:before,
 .burger_romb_icon:after{
-	 content: '';
+	 content: '&#9670';
   display: inline-block;
   position: relative;
   top: -4px;
