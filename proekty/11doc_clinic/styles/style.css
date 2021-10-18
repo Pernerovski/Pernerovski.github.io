@@ -85,7 +85,7 @@ p{
 .service_title{
 	word-wrap: break-word;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 }
 .service_sign{
 	height: 41px;
@@ -106,7 +106,7 @@ p{
 	display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     	transition: .4s;
 }
 
@@ -127,7 +127,7 @@ background: -webkit-linear-gradient(top,  #eaeaea 1%,#00ea0b 100%); /* Chrome10-
 background: linear-gradient(to bottom,  #eaeaea 1%,#00ea0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#00ea0b',GradientType=0 ); /* IE6-9 */
 
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 	color: white;
 	font-weight: bold;
 
@@ -163,7 +163,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
    
 }
 .btn{
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
 }
 
 
