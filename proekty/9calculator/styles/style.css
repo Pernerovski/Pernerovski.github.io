@@ -7,62 +7,83 @@ img{
 	display: block;
 	width: 100%;
 }
-.wrapper{
-	width: 320px;
-	height: 513px;
-	border: 5px solid #55d2f0;
+body{
+	width: 500px;
+	margin: 0 auto;
+}
+.wrap{
+	width: 406px;
+	border: 4px solid #529697;
 	border-radius: 15px;
-	
-	
 }
 .calculator_title{
-	margin-top: 15px;
-	padding: 15px 20px;
-	background:#55d2f0;
-	text-align: right;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	height: 50px;
+	background-color: #5f9ea0;
+	border-top: 4px solid #529697;
+	border-bottom: 4px solid #529697;
+	display: flex;
+	justify-content: right;
+	align-items: center;
 	font-size: 17px;
+	padding-right: 17px;
 }
 .calculator_input{
-	width: 290px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+.calculator_input input{
+	width: 100%;
 	height: 50px;
-	margin: 15px 0 15px 10px;
-	border: 5px solid #55d2f0;
+	border: 4px solid #529697;
 	border-radius: 15px;
-	color: #55d2f0;
+	color: #5f9ea0;
 	font-size: 23px;
   	direction: RTL;
-
-
 }
 .calculator_box{
-	width: 100px;
-	height: 50px;
-	background: #55d2f0;
+	width: 129px;
+	height: 44px;
+	background-color: #5f9ea0;
+	border: 4px solid #529697;
+
+	margin-top: 12px;
+	margin-bottom: 22px;
+}
+.calculator_box{
 	float: right;
-	margin-right: 10px;
+	margin-right: 9px;
 }
 .calculator_btn{
-	align-items: center;
+	padding-left: 16px;
+	padding-right: 16px;
+	clear: both;
+}
+.calculator_btn:after{
+	content: '';
+	display: block;
 	clear: both;
 }
 .wrap_bottons{
-	padding: 10px;
 }
 .calculator_numer{
-	width: 60px;
-	height: 60px;
+	width: calc((100% - 14px* 3) / 4);
+	height: 68px;
+	border: 4px solid #529697;
+	border-radius: 15px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 6px;
-	border: 5px solid #55d2f0;
-	border-radius: 15px;
 	float: left;
-	font-size: 20px;
-	color: #55d2f0;
-	transition: .3s;
-	font-weight: bold;
-	
+	margin-right: 14px;
+	margin-bottom: 14px;
+	color: #529697;
+	font-family: 'Comic Neue', cursive;
+	font-size: 2rem;
+}
+.calculator_numer:last-child{
+	margin-right: 0;
 }
 .calculator_numer:hover{
 	color: white;
@@ -75,3 +96,6 @@ img{
 	border-color: grey;
 	transition: .2s;
 }
+
+
+
