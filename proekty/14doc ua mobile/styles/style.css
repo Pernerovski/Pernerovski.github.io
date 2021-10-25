@@ -25,6 +25,7 @@ p{
 }
 .doc_title p{
 	font-size: 1rem;
+	text-align: center;
 }
 .main_doc_title{
 	text-align: center;
@@ -37,23 +38,28 @@ ul{
 	color: #1168d6;
 }
 .service_images{
-	height: 162px;
+	height: 200px;
+	
 }
 .img1{
 	background: no-repeat url('../images/i1.png');
 	background-size: cover;
+	background-position: center center;
 }
 .img2{
 	background: no-repeat url('../images/i2.png');
 	background-size: cover;
+	background-position: center center;
 }
 .img3{
 	background: no-repeat url('../images/i3.png');
 	background-size: cover;
+	background-position: center center;
 }
 .img4{
 	background: no-repeat url('../images/i4.png');
 	background-size: cover;
+	background-position: center center;
 }
 .service_title{
 	text-align: center;
@@ -83,6 +89,7 @@ ul{
 }
 .btn {
 	padding-bottom: 7px;
+	text-align: center;
 }
 .btn p a{
 	text-decoration: none;
@@ -102,16 +109,11 @@ ul{
 .icon_soc{
 	width: 30px;
 	height: 30px;
-/*	cursor: pointer;*/
 }
-/*.icon_vk{
-	width: 20px;
-	height: 20px;
-	background: blue;*/
-/*}*/
+
 .servis_search{
-	
 	font-size: 0.9rem;
+	text-align: center;
 	color: white;
 	padding-bottom: 7px;
 }
@@ -122,8 +124,7 @@ ul{
 .unsubscribe{
 	font-size: 0.8rem;
 	color: white;
-
-
+	text-align: center;
 }.unsubscribe_link{
 	padding-top: 7px;
 }
@@ -152,6 +153,9 @@ ul{
 	padding-right: 50px;
 	
 }
+.doc_title p{
+	text-align: left;
+}
 .text_link{
 	font-family: 'Zen Maru Gothic', sans-serif;
 	font-weight: bold;
@@ -175,8 +179,9 @@ p{
 .service_detail:nth-child(2n){
 	margin-right: 0;
 }
-.service_images{
+.service_images{	
 	height: 214px;
+
 }
 .service_sign{
 	height: 41px;
@@ -191,12 +196,15 @@ p{
    	font-family: 'Nanum Gothic', sans-serif;
 
 }
+.service_sign:hover{
+	background-color: fe0000;
+}
+
 .btn p a{
 	font-weight: bold;
-
 }
-.btn p a:target{
-
+.btn p{
+	text-align: left;
 }
 .footer{
 	padding: 0;
@@ -248,7 +256,7 @@ p{
 	text-align: center;
 }
 .unsubscribe{
-	text-align: center;
+	
 }
 }
 
