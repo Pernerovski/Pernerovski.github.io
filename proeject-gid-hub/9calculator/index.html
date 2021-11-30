@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>calculator</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="calculator_title">Casio 3234</div>
+			<div class="calculator_input"><form name="form"><input type="text" name="textview" readonly></form></div>
+			<div class="calculator_delete" onclick="back()">DELETE</div>
+			<div class="calculator_btn">
+				<div class="wrap_bottons">
+						<div class="calculator_numer" onclick="insert('7')">7</div>
+						<div class="calculator_numer" onclick="insert('8')">8</div>
+						<div class="calculator_numer" onclick="insert('9')">9</div>
+						<div class="calculator_numer" onclick="insert('+')">+</div>
+					</div>
+					<div class="wrap_bottons">
+						<div class="calculator_numer" onclick="insert('4')">4</div>
+						<div class="calculator_numer" onclick="insert('5')">5</div>
+						<div class="calculator_numer" onclick="insert('6')">6</div>
+						<div class="calculator_numer" onclick="insert('-')">-</div>
+					</div>
+					<div class="wrap_bottons">
+						<div class="calculator_numer" onclick="insert('1')">1</div>
+						<div class="calculator_numer" onclick="insert('2')">2</div>
+						<div class="calculator_numer" onclick="insert('3')">3</div>
+						<div class="calculator_numer" onclick="insert('/')">/</div>
+					</div>
+					<div class="wrap_bottons">
+						<div class="calculator_numer" onclick="insert('.')">,</div>
+						<div class="calculator_numer" onclick="insert('0')">0</div>
+						<div class="calculator_numer" onclick="equal()">=</div>
+						<div class="calculator_numer" onclick="insert('*')">*</div>
+					</div>
+			</div>		
+		</div>
+		<script>
+			function insert(num) {
+				document.form.textview.value = document.form.textview.value + num;
+			}
+			function clean() {
+				document.form.textview.value = "";
+			}
+			function back() {
+				var exp = document.form.textview.value;
+				document.form.textview.value = exp.substring(0,exp.length-1)
+			}
+			function equal() {
+				var exp = document.form.textview.value;
+				if(exp) {
+					document.form.textview.value = eval(exp);
+				}
+			}
+			$( "#target" ).keypress(function( event ) {
+    if ( event.which == 48 ) {
+    // Return #0
+}
+if ( event.which == 49 ) {
+    // Return #1
+}
+// and so on...
+});
+		</script>
+		<script src="/resources/events.js"></script>
+ 
+<script>
+	</body>
+</html>
